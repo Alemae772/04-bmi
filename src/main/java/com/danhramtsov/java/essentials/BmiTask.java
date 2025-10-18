@@ -5,13 +5,13 @@ public class BmiTask {
             public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
             System.out.print("Введите ваш вес (в кг): ");
-            String weight = sc.nextLine();
+            double weight = sc.nextDouble();
             System.out.print("Введите ваш рост (в метрах): ");
-            double bmi = sc.nextDouble();
-            String height = sc.nextLine();
+            double height = sc.nextDouble();
 
-            sc.nextLine();
+            double bmi = weight/(height*height);
+            sc.nextDouble();
             System.out.printf("Ваш индекс массы тела (ИМТ): %.2f%n", bmi);
-
             sc.close();
+            }
 }
