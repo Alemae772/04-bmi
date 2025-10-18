@@ -8,9 +8,7 @@ public class BmiTask {
             double weight = sc.nextDouble();
             System.out.print("Введите ваш рост (в метрах): ");
             double height = sc.nextDouble();
-
             double bmi = weight/(height*height);
-            sc.nextDouble();
             System.out.printf("Ваш индекс массы тела (ИМТ): %.2f%n", bmi);
             sc.close();
             }
