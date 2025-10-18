@@ -12,4 +12,5 @@ public class BmiTask {
             System.out.printf("Ваш индекс массы тела (ИМТ): %.2f%n", bmi);
             sc.close();
             }
+
 }
